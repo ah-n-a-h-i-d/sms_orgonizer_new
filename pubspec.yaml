@@ -1,0 +1,28 @@
+name: sms_orgonizer_new
+description: "access your message efficiently"
+publish_to: 'ah_nahid' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  permission_handler: ^11.1.0
+  flutter_sms_inbox: ^1.0.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_slidable: ^3.0.1
+  flutter_contacts: ^1.1.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.1.11
+
+flutter:
+  uses-material-design: true
